@@ -22,8 +22,10 @@ class Program
                 case "e":
                     {
                         Console.ForegroundColor = ConsoleColor.Magenta;
-                        Console.WriteLine($"\nPublic Key: {publicKey}\n");
+                        Console.WriteLine($"Public Key: {publicKey}\n");
                         Console.WriteLine($"Private Key: {privateKey}\n");
+
+                        Console.WriteLine($"Public Key Length: {publicKey.Length}\nPrivate Key Length: {privateKey.Length}\n");
                         Console.ResetColor();
 
                         Console.ForegroundColor = ConsoleColor.Red;
