@@ -1,5 +1,5 @@
 # RSA
-RSA Encrypter / Decrypter  
+RSA Text Encrypter / Decrypter  
 .Net 8
 
 # How to use  
